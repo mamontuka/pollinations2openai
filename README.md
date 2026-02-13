@@ -83,7 +83,7 @@ Both services expose an OpenAI-compatible API under /v1.
 
 If you want to use paid Pollinations models:
 
-Obtain a Pollinations API key
+**Obtain a Pollinations API key**
 
 Save it to:
 
