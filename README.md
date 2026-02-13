@@ -39,14 +39,6 @@ This effectively allows you to use Pollinations.ai as a drop-in replacement for 
 
 ---
 
-## 🛠 Requirements
-
-- Linux (Debian / Ubuntu recommended)
-- `systemd`
-- Root access (for service installation)
-
----
-
 ## 📦 Installation
 
 ### 1. Clone the repository
