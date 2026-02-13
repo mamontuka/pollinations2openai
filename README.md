@@ -112,7 +112,16 @@ API Key: dummy
 
 After saving, Pollinations will appear as an image generation backend.
 
+**Direct connect to pollinations paid API proxy :**
+
+![screenshot](https://github.com/mamontuka/pollinations2openai/blob/main/pollinations_openwebui_to_direct_proxy_api.jpg)
+
+
 ### 🧩 Using with LiteLLM
+
+**Connection to pollinations proxies over LiteLLM :**
+
+![screenshot](https://github.com/mamontuka/pollinations2openai/blob/main/pollinations_openwebui_to_litellm.jpg)
 
 Example config.yaml entry:
 
