@@ -1,6 +1,6 @@
 # pollinations2openai
 
-**A proxy for integrating Pollinations.ai image generators into OpenAI-compatible systems**
+**A proxy for integrating [Pollinations.ai](https://pollinations.ai/) image generators into OpenAI-compatible systems**
 
 `pollinations2openai` is a simple but practical proxy service that allows you to connect **Pollinations.ai** image generation (both free and paid) to **OpenAI-compatible APIs**, such as **OpenWebUI** and **LiteLLM**, without modifying client code.
 
