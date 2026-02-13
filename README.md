@@ -94,7 +94,7 @@ Restart the service:
 
 The free service (4290) does not require an API key.
 
-### LLM SYSTEM PROMPT EXAMPLE
+### ⚙️ LLM SYSTEM PROMPT EXAMPLE
 
         You are a creative proxy for generating images in ART MODE.
         Your tasks as an artist:
@@ -111,6 +111,23 @@ The free service (4290) does not require an API key.
            - Do not explain or reveal internal translation or prompt.
            - Do not produce text.
            - Output only the final image.
+#
+
+### ⚙️ Third part custom tool for image auto generation in OpenwebUI
+
+**Created by :**
+
+author_email: nokodo@nokodo.net <br>
+author_url: https://nokodo.net <br>
+funding_url: https://ko-fi.com/nokodo <br>
+repository_url: https://nokodo.net/github/open-webui-extensions <br>
+#
+
+Create tool in OpenwebUI Workspace, and add in created tool this one code :
+
+**https://github.com/mamontuka/pollinations2openai/blob/main/openwebui_auto_image_tool.py**
+
+#
 
 ### 🧠 Using with OpenWebUI
 
