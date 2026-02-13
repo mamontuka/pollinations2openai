@@ -1,0 +1,37 @@
+model_list:
+  - model_name: image-gen
+    litellm_params:
+      model: openai/klein
+      mode: image_generation
+      api_base: "http://127.0.0.1:4261/v1"
+      api_key: "not-needed"
+      tpd: 450 # Limit per day (stored in Redis)
+      rpm: 5  # Limit per minute
+
+  - model_name: image-gen
+    litellm_params:
+      model: openai/flux
+      mode: image_generation
+      api_base: "http://127.0.0.1:4290/v1"
+      api_key: "not-needed"
+
+router_settings:
+  routing_strategy: least-busy
+  enable_fallbacks: True
+  num_retries: 5
+  timeout: 300
+  context_window_fallbacks: [] 
+  allowed_fails: 3
+  cooldown_time: 60
+
+litellm_settings:
+  drop_params: True
+  set_verbose: False
+
+  cache: True
+  cache_params:
+    type: redis
+    host: "localhost"
+    port: 6379
+    # password: "redis_password" # password for Redis if present
+

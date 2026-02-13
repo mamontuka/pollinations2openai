@@ -1,0 +1,18 @@
+[Unit]
+Description=Pollinations API 4290 Free
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/root/ai
+# Start over main script with argument polligenapi-4290-free
+ExecStart=/bin/bash /root/ai/pollinations.sh polligenapi-4290-free
+Restart=always
+RestartSec=5
+#StandardOutput=append:/var/log/ai-polligenapi-4290-free.log
+#StandardError=append:/var/log/ai-polligenapi-4290-free.log
+
+[Install]
+WantedBy=multi-user.target

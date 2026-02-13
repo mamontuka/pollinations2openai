@@ -1,0 +1,18 @@
+[Unit]
+Description=Pollinations API 4261
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/root/ai
+# Start over main script with argument polligenapi-4261
+ExecStart=/bin/bash /root/ai/pollinations.sh polligenapi-4261
+Restart=always
+RestartSec=5
+#StandardOutput=append:/var/log/ai-polligenapi-4261.log
+#StandardError=append:/var/log/ai-polligenapi-4261.log
+
+[Install]
+WantedBy=multi-user.target
