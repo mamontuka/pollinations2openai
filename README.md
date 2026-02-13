@@ -78,7 +78,8 @@ ai-polligenapi4261	4261	Paid Pollinations endpoint
 ai-polligenapi4290-free	4290	Free Pollinations endpoint
 
 Both services expose an OpenAI-compatible API under /v1.
-🔑 API Key Configuration (Paid Mode)
+
+### 🔑 API Key Configuration (Paid Mode)
 
 If you want to use paid Pollinations models:
 
